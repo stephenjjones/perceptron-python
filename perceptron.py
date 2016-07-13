@@ -52,6 +52,9 @@ class Perceptron(object):
         """Calculate the net input
         
         Calculates the vector dot product (w^T)x
+
+        .. math::
+            w^{-1} \cdot x
         
         Args:
             X: Training set
