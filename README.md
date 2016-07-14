@@ -23,5 +23,20 @@ A playground for modeling Perceptron learners in python.
     a linear decision boundary
 
 
+### Anaconda
+* Download from [continuum](https://www.continuum.io/downloads)
+* `$ bash Anaconda3-4.1.1-MacOSX-x86_64.sh` 
+* Check it worked `$ ipython`
+* Make sure PATH contains Anaconda directory and Scripts subdirectory
+  - `export PATH=/home/jones/anaconda/bin:$PATH` in .bashrc
+* `$ conda create --name mydirname anaconda` # create virtual env
+* `$ source activate mydirname`
+* `$ source deactivate`
+
+* `$ conda install somepackage`
+* `$ conda update somepackage`
+
+* `$ ipython [qt | notebook]`
+* `$ jupyter notebook`
 
 ### References
